@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const blob = new Blob([pdfBytes], { type: 'application/pdf' });
         const link = document.createElement('a');
         link.href = URL.createObjectURL(blob);
-        link.download = 'datos_usuario.pdf';
+        link.download = 'Contrato.pdf';
         link.click();
     });
 
